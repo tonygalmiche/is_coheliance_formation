@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+
+<!-- Permet de remplacer complètement le header -->
+<template id="is_external_layout_header2" name="is_external_layout_header2" inherit_id="is_coheliance.is_external_layout_header">
+    <xpath expr="//div[@class='header']" position="replace">
+        <div class="header">
+            <div class="row">
+                <div class="col-xs-12">
+                    <img t-att-src="'/is_coheliance/static/img/logo.png'" style="max-height: 45px;"/>
+                    <span style="font-size:18pt;color:#AF1376;">formation</span>
+                </div>
+            </div>
+        </div>
+    </xpath>
+</template>
+
+<!-- Permet de remplacer complètement le footer -->
+<template id="is_external_layout_footer2" name="is_external_layout_footer2" inherit_id="is_coheliance.is_external_layout_footer">
+    <xpath expr="//div[@class='footer']" position="replace">
+        <div class="footer">
+            <div class="row" style="color:#AF1376; text-align:center" >
+                <div>SARL COHELIANCE FORMATION au capital de 1 000 € - Le Major - 170 avenue Jean Jaurès - 21 000 DIJON</div>
+                <div><span t-field="res_company.company_registry"/> - APE 8559A</div>
+                <div>Tél. 03 80 52 11 22 – Fax 03 80 52 96 90 - Email : contact@coheliance.com - www.coheliance.com</div>
+                <div>Numéro de déclaration d'activité : 27 21 03589 21 - Numéro TVA intracommunautaire : FR 37 819719816</div>
+            </div>
+        </div>
+    </xpath>
+</template>
+
+</data>
+</openerp>
