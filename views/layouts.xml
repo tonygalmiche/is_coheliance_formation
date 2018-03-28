@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-xs-6">
                     <img t-att-src="'/is_coheliance/static/img/logo.png'" style="max-height: 45px;"/>
-                    <span style="font-size:18pt;color:#AF1376;">formation</span>
+                    <!--<span style="font-size:18pt;color:#AF1376;">formation</span>-->
                 </div>
                 <div class="col-xs-6 text-right">
                     <img t-att-src="'/is_coheliance/static/img/logo-afaq.png'" style="max-height: 45px;"/>
