@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-xs-6">
                     <!--<img t-att-src="'/is_coheliance/static/img/logo.png'" style="max-height: 100px;"/>-->
-                    <img t-if="company.logo" t-att-src="'data:image/png;base64,%s' % company.logo" style="max-height: 100px;"/>
+                    <img t-if="company.logo" t-att-src="'data:image/png;base64,%s' % company.logo" style="max-width:95mm"/>
                     <!--<span style="font-size:18pt;color:#AF1376;">formation</span>-->
                 </div>
                 <div class="col-xs-6 text-right">
