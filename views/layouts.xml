@@ -14,7 +14,7 @@
                     <!--<span style="font-size:18pt;color:#AF1376;">formation</span>-->
                 </div>
                 <div class="col-xs-7 text-right">
-                    <img t-att-src="'/is_coheliance/static/img/logo-afnor-qualiopi.jpg'" style="max-height: 100px;"/>
+                    <!-- <img t-att-src="'/is_coheliance/static/img/logo-afnor-qualiopi.jpg'" style="max-height: 100px;"/> -->
                 </div>
             </div>
         </div>
